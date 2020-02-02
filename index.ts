@@ -11,7 +11,7 @@ export default new Pack({
             func: (param, project, platform: any) => {
                 var templater = valueField => (object, script) => {
                     var value = script.getField(valueField, script);
-                    if(/{.*?}/g.exec(value)[0] == value){
+                    if(/{.*?}/g.exec(value) && /{.*?}/g.exec(value)[0] == value){
                         return project.variables.value[value.substring(1, value.length-1)].value
                     }else{
                         return value

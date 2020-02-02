@@ -1,6 +1,6 @@
 {
   "name": "@dalkak/templater",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "source": "index.ts",
   "main": "dist/templater.js",
   "module": "dist/templater.mjs",
