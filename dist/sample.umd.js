@@ -1,2 +1,0 @@
-!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t(require("dalkak")):"function"==typeof define&&define.amd?define(["dalkak"],t):(e=e||self)["@dalkak/sample"]=t(e.dalkak)}(this,function(e){return new e.Pack(new e.Dict,"Sample",{log:new e.Block(new e.Dict,"log","(text) 찍기",function(e){return console.log(e.text)},{text:e.Literal.from("안녕")})})});
-//# sourceMappingURL=sample.umd.js.map

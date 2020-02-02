@@ -1,24 +1,24 @@
 {
-  "name": "@dalkak/sample",
-  "version": "0.0.3",
+  "name": "@dalkak/templater",
+  "version": "0.1.0",
   "source": "index.ts",
-  "main": "dist/sample.js",
-  "module": "dist/sample.mjs",
-  "unpkg": "dist/sample.umd.js",
+  "main": "dist/templater.js",
+  "module": "dist/templater.mjs",
+  "unpkg": "dist/templater.umd.js",
   "scripts": {
-    "build": "microbundle --name @dalkak/sample"
+    "build": "microbundle --name @dalkak/templater"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dalkak/sample.git"
+    "url": "git+https://github.com/Dalkak/templater.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gnlow",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Dalkak/sample/issues"
+    "url": "https://github.com/Dalkak/templater/issues"
   },
-  "homepage": "https://github.com/Dalkak/sample#readme",
+  "homepage": "https://github.com/Dalkak/templater#readme",
   "description": "",
   "dependencies": {
     "@types/node": "^13.1.8",

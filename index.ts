@@ -3,7 +3,7 @@ import {
 } from "dalkak";
 
 export default new Pack({
-    name: "Sample",
+    name: "templater",
     blocks: {
         log: new Block({
             name: "log",
