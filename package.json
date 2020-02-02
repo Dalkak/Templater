@@ -1,0 +1,31 @@
+{
+  "name": "@dalkak/sample",
+  "version": "0.0.3",
+  "source": "index.ts",
+  "main": "dist/sample.js",
+  "module": "dist/sample.mjs",
+  "unpkg": "dist/sample.umd.js",
+  "scripts": {
+    "build": "microbundle --name @dalkak/sample"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dalkak/sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dalkak/sample/issues"
+  },
+  "homepage": "https://github.com/Dalkak/sample#readme",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^13.1.8",
+    "dalkak": "^0.7.3"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.0-next.7",
+    "typescript": "^3.7.5"
+  }
+}
