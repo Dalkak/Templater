@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Dalkak/templater#readme",
   "description": "",
   "dependencies": {
-    "@types/node": "^13.1.8",
+    "@types/node": "^15.12.0",
     "dalkak": "^0.7.3"
   },
   "devDependencies": {
